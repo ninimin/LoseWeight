@@ -24,9 +24,9 @@ class UsersRegister extends Migration
             $table->integer('status',11);            
             // $table->timestamp('created_at')->nullable();
             // $table->timestamp('updated_at')->nullable();
-            //$table->string('dateofbirth',10);
-           // $table->timestamps()->nullable();
-            //$table->softDeletes()->nullable();
+            $table->string('dateofbirth',10);
+            $table->timestamps()->nullable();
+            $table->softDeletes()->nullable();
             //$table->timestamp('updated_at');
             //$table->rememberToken();
             //$table->timestamps();
