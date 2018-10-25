@@ -66,8 +66,8 @@ use LINE\LINEBot\MessageBuilder\TemplateBuilder\ImageCarouselColumnTemplateBuild
 // define('LINE_MESSAGE_CHANNEL_ID','กรอก ค่า Channel ID');
 // define('LINE_MESSAGE_CHANNEL_SECRET','f571a88a60d19bb28d06383cdd7af631');
 // define('LINE_MESSAGE_ACCESS_TOKEN','omL/jl2l8TFJaYFsOI2FaZipCYhBl6fnCf3da/PEvFG1e5ADvMJaILasgLY7jhcwrR2qOr2ClpTLmveDOrTBuHNPAIz2fzbNMGr7Wwrvkz08+ZQKyQ3lUfI5RK/NVozfMhLLAgcUPY7m4UtwVwqQKwdB04t89/1O/w1cDnyilFU=');
-define('LINE_MESSAGE_CHANNEL_SECRET','949b099c23a7c9ca8aebe11ad9b43a52');
-define('LINE_MESSAGE_ACCESS_TOKEN','qFLN6cTuyvSWdbB1FHgUBEsD9hM66QaW3+cKz/LsNkwzMrBNZrBkH9b1zuCGp9ks0IpGRLuT6W1wLOJSWQFAlnHT/KbDBpdpyDU4VTUdY6qs5o1RTuCDsL3jTxLZnW1qbgmLytIpgi1X1vqKKsYywAdB04t89/1O/w1cDnyilFU=');
+define('LINE_MESSAGE_CHANNEL_SECRET','2d50474d94b9ca345a0c0af583efbebe');
+define('LINE_MESSAGE_ACCESS_TOKEN','XDzOxaTsR+P0b0ghCtuBdpesloxOhgcJSLDxuTL2sg37HFKZQG3KEQy72w57KGHufmzwD2M75cotNoFp11uJf3F4mb2eChG+5LnSAbo7pQD9gFvbRKQ+qXeKRx24vLZJesdnh1/9BYYKGa/82Y2g9QdB04t89/1O/w1cDnyilFU=');
 
 
 
@@ -271,7 +271,7 @@ if(!is_null($events)){
     }
     // ถ้าเป้น Message Event 
     if(!is_null($eventMessage)){
-                            // สร้างตัวแปรเก็ยค่าประเภทของ Message จากทั้งหมด 8 ประเภท
+                            // สร้างตัวแปรเก็บค่าประเภทของ Message จากทั้งหมด 8 ประเภท
                   $typeMessage = $eventObj->getMessageType();  
                   //  text | image | sticker | location | audio | video | imagemap | template 
                   // ถ้าเป็นข้อความ
