@@ -30,6 +30,10 @@ class UsersRegister extends Migration
             //$table->timestamp('updated_at');
             //$table->rememberToken();
             //$table->timestamps();
+
+
+
+            
         });
     }
 
