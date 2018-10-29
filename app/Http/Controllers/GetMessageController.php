@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//
 use App\Models\pregnants as pregnants;
 use App\Models\RecordOfPregnancy as RecordOfPregnancy;
 use App\Models\sequents as sequents;
