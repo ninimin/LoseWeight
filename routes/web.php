@@ -25,7 +25,9 @@
 //     //    return $id;
 // 	// return view('welcome');
 // });
-
+Route::get('/', function () {
+  return view('welcome');
+});
 //////////////////////////////////////////////////////////////////////
 Route::get('graph/{id}', 'noticeController@graph');
 Route::get('notice_monday','noticeController@notice_monday');
